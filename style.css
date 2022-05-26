@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Noto+Sans:wght@100&display=swap');
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Pseudo Class - syntax: selector: pseudo-class(property:value)*/
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px 2px gainsboro;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(aqua,aquamarine);
+    color: darkblue;
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: 'Anton', sans-serif;
+}
+#bio{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: darkblue;
+    width: 70px;
+    margin: auto;
+}
+p{
+    font-size: 25px;
+}
+#writings{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+#contact{
+    background: firebrick;
+}
+#contact iframe{
+    width: 100%;
+    margin: 30px;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
